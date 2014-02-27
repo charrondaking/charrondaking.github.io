@@ -1,0 +1,214 @@
+        html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+body {
+	background-color: #82837E;
+}
+
+/* Logo - Navigation */
+header {
+	background-color: white;
+	height: 105px;
+	width: 80%;
+	margin: 40px auto 0px auto;	
+}
+
+#logo {
+	height: 140px; width: auto;
+	margin: 6.64em 0em 0 3em;
+	float: left;
+}
+
+/* Baking up design... */
+#head_text {
+	font-size: 1.5em;
+	font-family: 'Paprika', cursive;
+	padding: 0em;
+	margin: 0em 0em 0em 0em;
+	top: 35px;
+}
+
+/* Header Tag */
+a {
+	text-decoration: none;
+}
+
+ul {
+    list-style-type: none;    
+}
+
+.navbuttons {
+	float: right;
+	font-size: 1.1em;
+	color: orange;
+	font-family: 'PT Sans Narrow', sans-serif;
+	margin: 2.5em 1em 0em 1em;
+}
+
+/* Article Tag */
+
+article {
+	height: 640px; width: 80%;
+	background: #E0E0E0;
+	margin: 0px auto 40px;
+	padding: 0;
+}
+
+h2 {
+	font-family: 'Cuprum', sans-serif;
+	font-size: 1.5em;
+	color: orange;
+	padding: 0em 0em 0em 0em;
+}
+
+
+/*left: 25px; top: 25px; z-index: 100; */
+
+.topleft_text {
+	font-family: Georgia, serif;
+	font size: 1.5em;
+	text-align: right;
+	padding: .35em 1em .35em 0em;
+}
+
+#photo_meringue {
+	margin: .5em 0em 0em 1em;  
+}
+
+#architectural {
+	margin: 1em 0em 0em 0em;
+}	
+
+.topright_text {
+	font-family: Georgia, serif;
+	font size: 1.5em;
+	text-align: left;
+	padding: .35em 0em .35em 1em;
+}
+
+#logo_delight {
+	margin: .5em 0em 0em .5em;  
+}
+
+#graphic_design {
+	margin: 1em 0em 0em 0em;
+}	
+
+.bttmleft_text {
+	font-family: Georgia, serif;
+	font size: 1.5em;
+	text-align: right;
+	padding: .35em 1em .35em 0em;
+}
+
+#boutme_cobbler {
+	margin: .5em 0em 0em 1em;  
+}
+
+#about {
+	margin: 1em 0em 0em 0em;
+}	
+
+.bttmright_text {
+	font-family: Georgia, serif;
+	font size: 1.5em;
+	text-align: left;
+	padding: .35em 0em .35em 1em;
+}
+
+#plain_contact {
+	margin: .5em 0em 0em .5em;  
+}
+
+#contact {
+	margin: .5em 0em 0em 0em;
+}
+
+/* Article: Cupcakes */
+.cupcake_img {
+	width: 160px; height: auto;
+	float: right;
+}
+
+#photo_cupake {
+	margin: 0em;
+	position: absolute;
+	left: 355px; 
+	top: 280px;
+}
+
+#design_cupcake {
+	margin: 0em;
+	position: absolute;
+	left: 755px; 
+	top: 255px;
+}
+
+#about_cupcake {
+	margin: 0em;
+	position: absolute;
+	left: 355px; 
+	top: 540px;
+}
+
+#contact_cupcake {
+	margin: 0em;
+	position: absolute;
+	left: 755px; 
+	top: 555px;
+}
+
+/* Article: div grey boxes */
+.cupcake_boxes {
+	height: 240px;
+	width: 200px;	
+	background-color: #82837E;
+	float: left;
+	border-radius: 30px;
+	font-color: #333;
+	font-size: 1em;
+	font-family: "ariel", sans-serif;
+}
+
+
+#topleft_box {
+	
+	margin: 5.5em .5em 1em 5em;
+	padding: 0;
+		
+}
+
+#topright_box {
+	
+	margin: 5.5em 15em 1em .5em;
+	padding: 0;
+	
+}
+
+#bttmleft_box {
+	
+	margin: 1em .5em 2em 19em;
+	padding: 0;
+	
+}
+
+#bttmright_box {
+	
+	margin: 1em 15em 2em .5em;
+	padding: 0;
+	
+}
+
+/*font-family: 'Rum Raisin', sans-serif;
+font-family: 'Patrick Hand', cursive; */
+
+/*Footer*/
+.foot_text {
+	font-family: Georgia, serif;
+	font-size: 1.1em;
+	color: white;
+	padding: 0em;
+	margin: 2em auto 3em auto;
+	text-align: center;
+	
+}
+
