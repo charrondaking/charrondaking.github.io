@@ -7,24 +7,26 @@ body {
 /* Logo - Navigation */
 header {
 	background-color: white;
-	height: 105px;
+	height: 75px;
 	width: 80%;
 	margin: 40px auto 0px auto;	
 }
 
 #logo {
 	height: 140px; width: auto;
-	margin: 6.64em 0em 0 3em;
+	margin: 4.7em 0em 0 3em;
 	float: left;
 }
 
 /* Baking up design... */
 #head_text {
 	font-size: 1.5em;
-	font-family: 'Paprika', cursive;
-	padding: 0em;
-	margin: 0em 0em 0em 0em;
-	top: 35px;
+	font-family: Tahoma, Geneva, sans-serif;
+	left: 350px;
+	top: 114px;
+	position: absolute;
+	padding: 0px 0px 0px 1px;
+	
 }
 
 /* Header Tag */
@@ -38,18 +40,19 @@ ul {
 
 .navbuttons {
 	float: right;
-	font-size: 1.1em;
+	font-size: 1em;
 	color: orange;
-	font-family: 'PT Sans Narrow', sans-serif;
-	margin: 2.5em 1em 0em 1em;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin: 55px 28px 1px 12px
+	
 }
 
 /* Article Tag */
 
-article {
+#index_article {
 	height: 640px; width: 80%;
 	background: #E0E0E0;
-	margin: 0px auto 40px;
+	margin: 0px auto 0px;
 	padding: 0;
 }
 
@@ -67,7 +70,7 @@ h2 {
 	font-family: Georgia, serif;
 	font size: 1.5em;
 	text-align: right;
-	padding: .35em 1em .35em 0em;
+	padding: .35em 1em .8em 0em;
 }
 
 #photo_meringue {
@@ -82,7 +85,7 @@ h2 {
 	font-family: Georgia, serif;
 	font size: 1.5em;
 	text-align: left;
-	padding: .35em 0em .35em 1em;
+	padding: .35em 0em .8em 1em;
 }
 
 #logo_delight {
@@ -94,10 +97,10 @@ h2 {
 }	
 
 .bttmleft_text {
-	font-family: Georgia, serif;
+	font-family: Tahoma, Geneva, sans-serif;
 	font size: 1.5em;
 	text-align: right;
-	padding: .35em 1em .35em 0em;
+	padding: .35em 1em .8em 0em;
 }
 
 #boutme_cobbler {
@@ -109,10 +112,10 @@ h2 {
 }	
 
 .bttmright_text {
-	font-family: Georgia, serif;
+	font-family: Tahoma, Geneva, sans-serif;
 	font size: 1.5em;
 	text-align: left;
-	padding: .35em 0em .35em 1em;
+	padding: .35em 0em .8em 1em;
 }
 
 #plain_contact {
@@ -132,29 +135,29 @@ h2 {
 #photo_cupake {
 	margin: 0em;
 	position: absolute;
-	left: 355px; 
-	top: 280px;
+	left: 360px; 
+	top: 240px;
 }
 
 #design_cupcake {
 	margin: 0em;
 	position: absolute;
-	left: 755px; 
-	top: 255px;
+	left: 765px; 
+	top: 225px;
 }
 
 #about_cupcake {
 	margin: 0em;
 	position: absolute;
-	left: 355px; 
-	top: 540px;
+	left: 360px; 
+	top: 510px;
 }
 
 #contact_cupcake {
 	margin: 0em;
 	position: absolute;
 	left: 755px; 
-	top: 555px;
+	top: 505px;
 }
 
 /* Article: div grey boxes */
@@ -166,7 +169,7 @@ h2 {
 	border-radius: 30px;
 	font-color: #333;
 	font-size: 1em;
-	font-family: "ariel", sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 
@@ -205,10 +208,16 @@ font-family: 'Patrick Hand', cursive; */
 .foot_text {
 	font-family: Georgia, serif;
 	font-size: 1.1em;
-	color: white;
-	padding: 0em;
-	margin: 2em auto 3em auto;
+	color: black;
+	padding: .2em 0;
+	margin: 0em auto 1em auto;
 	text-align: center;
 	
 }
 
+footer {
+	background-color: white;
+	height: 55px;
+	width: 80%;
+	margin: 0px auto;
+}
