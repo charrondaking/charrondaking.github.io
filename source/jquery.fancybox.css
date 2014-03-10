@@ -167,11 +167,11 @@
 }
 
 .photo_pics {
-	margin: .7em 1em .5em .5em;
+	margin: .7em 1em .5em 1em;
 	padding: 0;
 	height: 176px;
 	width: auto;
-	border-radius: 30px;
+	border-radius: 20px;
 }
 
 /* Overlay helper */
