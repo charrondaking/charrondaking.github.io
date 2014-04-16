@@ -1,5 +1,8 @@
-        html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
 
+
+/* Base Styles
+------------------------------- */
 body {
 	background-color: #82837E;
 }
@@ -7,26 +10,24 @@ body {
 /* Logo - Navigation */
 header {
 	background-color: white;
-	height: 75px;
+	height: 105px;
 	width: 80%;
 	margin: 40px auto 0px auto;	
 }
 
 #logo {
-	height: 140px; width: auto;
-	margin: 4.7em 0em 0 3em;
+	height: 140%; width: auto;
+	margin: 6.64em 0em 0 3em;
 	float: left;
 }
 
 /* Baking up design... */
 #head_text {
 	font-size: 1.5em;
-	font-family: Tahoma, Geneva, sans-serif;
-	left: 350px;
-	top: 114px;
-	position: absolute;
-	padding: 0px 0px 0px 1px;
-	
+	font-family: 'Paprika', cursive;
+	padding: 0em;
+	margin: 0em 0em 0em 0em;
+	top: 35px;
 }
 
 /* Header Tag */
@@ -40,19 +41,18 @@ ul {
 
 .navbuttons {
 	float: right;
-	font-size: 1em;
+	font-size: 1.1em;
 	color: orange;
-	font-family: Tahoma, Geneva, sans-serif;
-	margin: 55px 28px 1px 12px
-	
+	font-family: 'PT Sans Narrow', sans-serif;
+	margin: 2.5em 1em 0em 1em;
 }
 
 /* Article Tag */
 
-#index_article {
+article {
 	height: 640px; width: 80%;
 	background: #E0E0E0;
-	margin: 0px auto 0px;
+	margin: 0px auto 40px;
 	padding: 0;
 }
 
@@ -70,7 +70,7 @@ h2 {
 	font-family: Georgia, serif;
 	font size: 1.5em;
 	text-align: right;
-	padding: .35em 1em .8em 0em;
+	padding: .35em 1em .35em 0em;
 }
 
 #photo_meringue {
@@ -85,7 +85,7 @@ h2 {
 	font-family: Georgia, serif;
 	font size: 1.5em;
 	text-align: left;
-	padding: .35em 0em .8em 1em;
+	padding: .35em 0em .35em 1em;
 }
 
 #logo_delight {
@@ -97,10 +97,10 @@ h2 {
 }	
 
 .bttmleft_text {
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: Georgia, serif;
 	font size: 1.5em;
 	text-align: right;
-	padding: .35em 1em .8em 0em;
+	padding: .35em 1em .35em 0em;
 }
 
 #boutme_cobbler {
@@ -112,10 +112,10 @@ h2 {
 }	
 
 .bttmright_text {
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: Georgia, serif;
 	font size: 1.5em;
 	text-align: left;
-	padding: .35em 0em .8em 1em;
+	padding: .35em 0em .35em 1em;
 }
 
 #plain_contact {
@@ -135,41 +135,41 @@ h2 {
 #photo_cupake {
 	margin: 0em;
 	position: absolute;
-	left: 360px; 
-	top: 240px;
+	left: 355px; 
+	top: 280px;
 }
 
 #design_cupcake {
 	margin: 0em;
 	position: absolute;
-	left: 765px; 
-	top: 225px;
+	left: 755px; 
+	top: 255px;
 }
 
 #about_cupcake {
 	margin: 0em;
 	position: absolute;
-	left: 360px; 
-	top: 510px;
+	left: 355px; 
+	top: 540px;
 }
 
 #contact_cupcake {
 	margin: 0em;
 	position: absolute;
 	left: 755px; 
-	top: 505px;
+	top: 555px;
 }
 
 /* Article: div grey boxes */
 .cupcake_boxes {
-	height: 240px;
-	width: 200px;	
+	height: 37%;
+	width: 20%;	
 	background-color: #82837E;
 	float: left;
 	border-radius: 30px;
 	font-color: #333;
 	font-size: 1em;
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: "ariel", sans-serif;
 }
 
 
@@ -208,16 +208,297 @@ font-family: 'Patrick Hand', cursive; */
 .foot_text {
 	font-family: Georgia, serif;
 	font-size: 1.1em;
-	color: black;
-	padding: .2em 0;
-	margin: 0em auto 1em auto;
+	color: white;
+	padding: 0em;
+	margin: 2em auto 3em auto;
 	text-align: center;
 	
 }
 
-footer {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+article {
+	height: 540px; width: 80%;
+	margin: 0px auto 20px;
+}
+
+header {
+	background-color: white;
+	height: 85px;
+	width: 80%;
+	margin: 40px auto 0px auto;	
+}
+
+#head_text {
+	font-size: 1.2em;
+	font-family: 'Paprika', cursive;
+	top: 25px;
+}
+
+#logo {
+	height: 90%; width: auto;
+	margin: 5.4em 0em 0em 1em;
+	float: left;
+}
+
+/* Photobox Headers */
+#boutme_cobbler {
+	margin: .5em 0em 0em .5em;  
+}
+
+#about {
+	margin: .5em 0em 0em 0em;
+}	
+
+#plain_contact {
+	margin: .5em 0em 0em .5em;  
+}
+
+#contact {
+	margin: .5em 0em 0em 0em;
+}
+
+/* Photobox Text */
+.bttmright_text {
+	text-align: left;
+	padding: .25em 0em .25em 1em;
+}
+
+.topright_text {
+	text-align: left;
+	padding: .35em 0em .35em 1em;
+}
+
+.bttmleft_text {
+	text-align: right;
+	padding: .35em 1em .35em 0em;
+}
+
+.topleft_text {
+	text-align: right;
+	padding: 0em 1em 0em 0em;
+	top: 120px;
+}
+
+.cupcake_boxes {
+	height: 37%;
+	width: 20%;	
+	background-color: #82837E;
+	float: left;
+	border-radius: 30px;
+	font-color: #333;
+	font-family: Georgia, serif;
+}
+
+/* Photobox Cupcakes */
+.cupcake_img {
+	width: 120px; 
+	height: auto;
+	float: right;
+}
+
+#photo_cupake {
+	margin: 0.5em;
+	position: relative;
+	left: -85px; 
+	top: 20px;
+}
+
+#design_cupcake {
+	margin: 0em;
+	position: relative;
+	left: 60px; 
+	top: 0px;
+}
+
+#about_cupcake {
+	margin: 0em;
+	position: relative;
+	left: -85px; 
+	top: 0px;
+}
+
+#contact_cupcake {
+	position: relative;
+	left: 70px; 
+	top: 0px;
+}
+
+/* Grey boxes */
+.cupcake_boxes {
+	height: 35%;
+	width: 25%;	
+	float: left;
+	border-radius: 30px;
+	font-size: .75em;
+}
+
+#topleft_box {
+	margin: 2em .5em 1em 6em;
+	padding: 0;		
+}
+
+#topright_box {
+	margin: 2em 0em 1em .5em;
+	padding: 0;
+}
+
+#bttmleft_box {
+	margin: 1em .5em 1em 15em;
+	padding: 0;
+}
+
+#bttmright_box {
+	margin: 1em 0em 2em .5em;
+	padding: 0;
+}
+
+
+} /* End Query */
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+article {
+	height: 340px; width: 80%;
+	margin: 0px auto 20px;
+}
+
+header {
 	background-color: white;
 	height: 55px;
 	width: 80%;
-	margin: 0px auto;
+	margin: 20px auto 0px auto;	
 }
+
+#head_text {
+	font-size: 1em;
+	font-family: 'Paprika', cursive;
+	top: 25px;
+}
+
+#logo {
+	height: 70%; width: auto;
+	margin: 5.4em 0em 0em 1em;
+	float: left;
+}
+
+/* Photobox Headers */
+#boutme_cobbler {
+	margin: .5em 0em 0em .5em;  
+}
+
+#about {
+	margin: .5em 0em 0em 0em;
+}	
+
+#plain_contact {
+	margin: .5em 0em 0em .5em;  
+}
+
+#contact {
+	margin: .5em 0em 0em 0em;
+}
+
+/* Photobox Text */
+.bttmright_text {
+	text-align: left;
+	padding: .25em 0em .25em 1em;
+}
+
+.topright_text {
+	text-align: left;
+	padding: .35em 0em .35em 1em;
+}
+
+.bttmleft_text {
+	text-align: right;
+	padding: .35em 1em .35em 0em;
+}
+
+.topleft_text {
+	text-align: right;
+	padding: 0em 1em 0em 0em;
+	top: 120px;
+}
+
+.cupcake_boxes {
+	height: 37%;
+	width: 20%;	
+	background-color: #82837E;
+	float: left;
+	border-radius: 30px;
+	font-color: #333;
+	font-family: Georgia, serif;
+}
+
+/* Photobox Cupcakes */
+.cupcake_img {
+	width: 120px; 
+	height: auto;
+	float: right;
+	visibility: hidden;
+}
+
+#photo_cupake {
+	margin: 0.5em;
+	position: relative;
+	left: -85px; 
+	top: 20px;
+	visibility: hidden;
+}
+
+#design_cupcake {
+	margin: 0em;
+	position: relative;
+	left: 60px; 
+	top: 0px;
+	visibility: hidden;
+}
+
+#about_cupcake {
+	margin: 0em;
+	position: relative;
+	left: -85px; 
+	top: 0px;
+	visibility: hidden;
+}
+
+#contact_cupcake {
+	position: relative;
+	left: 70px; 
+	top: 0px;
+	visibility: hidden;
+}
+
+/* Grey boxes */
+.cupcake_boxes {
+	height: 25%;
+	width: 15%;	
+	float: left;
+	border-radius: 30px;
+	font-size: .75em;
+}
+
+#topleft_box {
+	margin: 2em .5em 1em 6em;
+	padding: 0;		
+}
+
+#topright_box {
+	margin: 2em 0em 1em .5em;
+	padding: 0;
+}
+
+#bttmleft_box {
+	margin: 1em .5em 1em 15em;
+	padding: 0;
+}
+
+#bttmright_box {
+	margin: 1em 0em 2em .5em;
+	padding: 0;
+}
+
+
+} /* End Query */
