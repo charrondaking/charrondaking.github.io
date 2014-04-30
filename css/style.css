@@ -211,7 +211,7 @@ h2 {
 /*End Basic Styles */
 
 
-/* Smart Phones */
+/* Smart Phones 320 */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
 header {
 	height: 2.5em;
@@ -221,7 +221,7 @@ header {
 }
 
 #logo {
-	height: 285%; width: auto;
+	height: 100%; width: auto;
 	margin: .3em 0em 0em .3em;
 	float: left;
 }
@@ -255,7 +255,7 @@ h2 {
 /* Article: div grey boxes */
 .cupcake_boxes { /* General Style for all boxes */
 	height: 35%;
-	width: 33%;	
+	width: 30%;	
 	float: left;
 	border-radius: 30px;
 	font-size: 1em;
