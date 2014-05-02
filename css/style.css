@@ -214,15 +214,17 @@ h2 {
 /* Smart Phones 320 */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
 header {
-	height: 2.5em;
+	height: 3em;
 	width: 100%;
-	margin: 0em auto 0em auto;
+	margin: 0em;
+	padding: 0em;
 	background: #E0E0E0;
 }
 
 #logo {
-	height: 100%; width: auto;
-	margin: .3em 0em 0em .3em;
+	height: 200%; width: auto;
+	margin: 1em 0em 0em 1em;
+	padding: 0em;
 	float: left;
 }
 
@@ -242,8 +244,8 @@ header {
 }
 
 article {
-	height: 470px; width: 100%;
-	margin: 0em auto 2em;
+	height: 460px; width: 100%;
+	margin: 0em auto .25em;
 }
 
 h2 {
@@ -258,39 +260,39 @@ h2 {
 	width: 30%;	
 	float: left;
 	border-radius: 30px;
-	font-size: 1em;
+	font-size: .95em;
 	color: white;
 }
 
 #topleft_box { /*Photo */
-	margin: 2.2em 0em 0em 0em;
+	margin: 0em 0em 1em 1.5em;
 	padding: 0em 1em 1em 1em;
-	left: -6em; 
-	top: .2em;
+	left: 0em; 
+	top: -3em;
 	position: relative;		
 }
 
 #topright_box { /* Design */
-	margin: 1.2em 0em 0em 3.5em;
+	margin: 0em 0em 1em 1em;
 	padding: 0em 1em 1em 1em;
-	left: 9.5em; 
-	top: -12em;
+	left: 0em; 
+	top: -3em;
 	position: relative;
 }
 
 #bttmleft_box { /*About */
-	margin: 0em 0em 0em 0em;
-	padding: 0em 0em 0em 0em;
-	left: -6em; 
-	top: 1em;
+	margin: 0em 0em 0em 1.2em;
+	padding: 0em 1em 1em 1em;
+	left: 0em; 
+	top: -3em;
 	position: relative;
 }
 
 #bttmright_box { /*Contact */
-	margin: 0em 0em 0em 0em;
-	padding: 0em 0em 0em 0em;
-	left: 2.1em; 
-	top: -9em;
+	margin: 0em 0em 0em 1em;
+	padding: 0em 1em 1em 1em;
+	left: 0em; 
+	top: -3em;
 	position: relative;
 }
 
@@ -339,41 +341,37 @@ h2 {
 
 /* Cupcakes */
 .cupcake_img { /* Main Style for Cupcakes */
-	width: 85px; 
+	width: 4em; 
 	height: auto;
 	float: right;
-	
 }
 
 #photo_cupake {
 	margin: 0.5em;
-	left: 10em; 
-	top: -9em;
+	left: -1em; 
+	top: 4.5em;
 	position: absolute;
 }
 
 #design_cupcake {
 	margin: 0em;
-	left: 34em; 
-	top: 10em;
+	left: 5em; 
+	top: 4.5em;
 	position: absolute;
-	visibility: hidden;
 }
 
 #about_cupcake {
 	margin: 0em;
-	left: 11em; 
-	top: 27em;
+	left: -.95em; 
+	top: 5em;
 	position: absolute;
-	visibility: hidden;
 }
 
 #contact_cupcake {
 	margin: 0em;
-	left: 33em; 
-	top: 26em;
+	left: 5em; 
+	top: 5em;
 	position: absolute;
-	visibility: hidden;
 }
 
 /*Footer*/
