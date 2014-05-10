@@ -60,7 +60,6 @@ article {
 #ie_article {
 	margin: 0;
 	padding: 0;
-	display: none;
 }
 
 h2 {
@@ -214,7 +213,12 @@ h2 {
 	margin: 2em auto 3em auto;
 	text-align: center;
 }
-/*End Basic Styles */
+
+#ie_footer {
+	margin: 0;
+	padding: 0;
+}
+/*End Base Styles */
 
 
 /* Smart Phones 320 */
@@ -558,12 +562,6 @@ h2 {
 	padding: 0em;
 	margin: 0em auto 3em auto;
 	text-align: center;
-}
-
-#ie_footer {
-	margin: 0;
-	padding: 0;
-	display: none;
 }
 } /* End Tablets Query */
 
