@@ -38,6 +38,7 @@ header {
 	height: 120px; width: auto;
 	margin: 70px 0px 0px 55px;
 	float: left;
+	z-index: 100;
 }
 
 
@@ -83,7 +84,7 @@ ul {
 	background: #CCC;
 	margin: 0px auto 0px;
 	padding: 0;
-	top: 30px;
+	top: 10px;
 	left: 30px;
 	position: relative;
 }
