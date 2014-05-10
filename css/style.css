@@ -57,6 +57,12 @@ article {
 	padding: 0;
 }
 
+#ie_article {
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
 h2 {
 	font-family: 'Cuprum', sans-serif;
 	font-size: 1.5em;
@@ -552,6 +558,12 @@ h2 {
 	padding: 0em;
 	margin: 0em auto 3em auto;
 	text-align: center;
+}
+
+#ie_footer {
+	margin: 0;
+	padding: 0;
+	display: none;
 }
 } /* End Tablets Query */
 
