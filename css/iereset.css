@@ -78,7 +78,7 @@ ul {
 
 
 /* Article Tag */
-.ie_article {
+#ie_article {
 	height: 640px; width: 980px;
 	background: #CCC;
 	margin: 0px auto 0px;
@@ -100,7 +100,7 @@ h2 {
 .cupcake_boxes { /* General Style for all boxes */
 	height: 215px;
 	width: 195px;	
-	background-color: #CCC;
+	background-color: #82837E;
 	float: left;
 	border-radius: 300px;
 	font-color: #333;
