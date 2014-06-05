@@ -4,16 +4,31 @@
 	<meta charset="utf-8">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
 		<title>C King Design</title>
 		
 		<link rel="stylesheet" href="css/photostyle.css" type="text/css">
+		<!--[if lt IE 9]>
+	<script src="source/html5shiv.js"></script>
+	<![endif]-->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
-		
+		<!--[if lt IE 9]>
+	<script src="source/html5shiv.js"></script>
+	<![endif]-->
 		<script type="text/javascript" src="javascript.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+		<!--[if lt IE 9]>
+	<script src="source/html5shiv.js"></script>
+	<![endif]-->
 		<link href='http://fonts.googleapis.com/css?family=Paprika' rel='stylesheet' type='text/css'>
+		<!--[if lt IE 9]>
+	<script src="source/html5shiv.js"></script>
+	<![endif]-->
 		<link href='http://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css'>
+		<!--[if lt IE 9]>
+	<script src="source/html5shiv.js"></script>
+	<![endif]-->
 	
 	<!--fancy box links start here -->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -236,7 +251,6 @@
 	<nav>
 		<ul>
             <li><a class="navbuttons" href="contact.html">Contact</a></li>
-            <li><a class="navbuttons" href="about.html">About</a></li>
             <li><a class="navbuttons" href="design.html">Design</a></li>
             <li><a class="navbuttons" href="index.html">Home</a></li>
         </ul>
@@ -244,7 +258,7 @@
 </header>
 
 
-<article id="photo_article">
+<div id="photo_article">
 		<div id="left_box" class="photo_boxes">
 
 		<a id="left_arch" class="fancybox" href="demo/room.jpg" data-fancybox-group="gallery" title="Interior Photography"><img class="photo_pics" src="demo/room.jpg" alt="">Architectural & Product</a>
@@ -279,45 +293,26 @@
 		</div>
 		
 		<div id="right_box" class="photo_boxes">
-				<a id="left_arch" class="fancybox" href="demo/diamonds.jpg" data-fancybox-group="gallery" title="Interior Photography"><img class="photo_pics" src="demo/diamonds.jpg" alt="">Portraits & Special Events</a>		
+				<a id="left_arch" class="fancybox" href="http://www.kollectivelycreative.com/" target="_blank" data-fancybox-group="gallery" title="Interior Photography">
+				<img class="photo_pics" src="demo/diamonds.jpg" alt="composite of a little girl">Gallery
+				</a>		
 		</div>
-		<div class="hidden">
-			<a class="fancybox" href="demo/ckc3.jpg" data-fancybox-group="gallery" title="Etiam quis mi eu elit temp"><img src="ckc3.jpg" alt="" /></a>
-		</div>
-		<div class="hidden">	
-			<a class="fancybox" href="demo/bubbles.jpg" data-fancybox-group="gallery" title="Cras neque mi, semper leon"><img src="bubbles.jpg" alt="" /></a>
-		</div>
-		<div class="hidden">
-			<a class="fancybox" href="demo/ckc7.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="ckc7.jpg" alt="" /></a>
-		</div>	
-		<div class="hidden">
-			<a class="fancybox" href="demo/ckc5.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="ckc5.jpg" alt="" /></a>
-		</div>	
-		<div class="hidden">
-			<a class="fancybox" href="demo/ckc2.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="ckc2.jpg" alt="" /></a>
-		</div>	
-		<div class="hidden">
-			<a class="fancybox" href="demo/dustjacket.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="dustjacket.jpg" alt="" /></a>
-		</div>
-		<div class="hidden">
-			<a class="fancybox" href="demo/ckc9.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="ckc9.jpg" alt="" /></a>
-		</div>
-		<div class="hidden">
-			<a class="fancybox" href="demo/ckc10.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="ckc10.jpg" alt="" /></a>
-		</div>
-		<div class="hidden">
-			<a class="fancybox" href="demo/ckc11.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="ckc11.jpg" alt="" /></a>
-		</div>
-
 		
 	
-</article>
+</div>
 
 
-<footer class="foot_text">
+<footer class="foot_text"><div id="ie_footer">
 		<p><span class="foot_text">© 2014</span>Charronda King
 			<a class="foot_text" href="tel:7704332211"> &#124; (770) 433-2211</a>
-			<a class="foot_text" href="mailto:cking@collectivelyKreative.net?subject=website.com%20website"> &#124; info@CollectivelyKreative.com</a></footer></p>
-</footer>
+			<a class="foot_text" href="mailto:cking@collectivelyKreative.net?subject=website.com%20website"> &#124; info@CollectivelyKreative.com</a></p>
+</div></footer>
 
+<!-- css3-mediaqueries.js for IE less than 9 -->
+ <!--[if lt IE 9]>
+<script type="text/javascript" src="..source/respond.js"></script>
+<link rel="stylesheet" media="all" href="css/iephoto.css" type="text/css">
+<![endif]-->
+
+</body>
 </html>
