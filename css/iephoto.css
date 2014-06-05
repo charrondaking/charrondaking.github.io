@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+}
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+/* Styles for IE 8 and below - fixed layout */
+
+/* Base Styles
+------------------------------- */
+body {
+	background-color: #82837E;
+}
+
+
+/* Logo - Navigation */ /* White Bar */
+header { 
+
+}
+
+#logo {
+	height: 120px; width: auto;
+	margin: 62px 0px 0px 55px;
+	float: left;
+	z-index: 100;
+}
+
+
+/* Baking up design... */
+#head_text {
+	font-size: 16px;
+	font-family: 'Paprika', cursive;
+	padding: 2px 0px 0px 0px;
+	margin: 0px auto 0px auto;
+	background-color: white;
+	height: 60px;
+	width: 960px;
+	
+
+}
+
+
+/* Header Tag */
+a {
+	text-decoration: none;
+}
+
+ul {
+    list-style-type: none;    
+}
+
+.navbuttons {
+	float: right;
+	font-size: 16px;
+	color: #f17022;
+	font-family: 'ariel', sans-serif;
+	margin: 1px 4px 0px 4px;
+	padding: 1px 5px 0px 12px;
+	top: -25px;
+	right: 30px;
+	position: relative;
+}
+
+
+/* Article Tag */
+#ie_photo_article {
+	height: 540px; 
+	width: 960px;
+	background: #CCC;
+	margin: 0px auto;
+	padding: 0;
+	
+}
+
+h2 {
+	font-family: 'ariel', sans-serif;
+	font-size: 22px;
+	color: orange;
+	padding: 0;
+}
+
+
+.photo_boxes {
+	height: 200px;
+	width: 285px;	
+	background-color: #82837E;
+	float: left;
+	border-radius: 30px;
+	color: #333;
+	font-size: 1.2em;
+	font-family: Georgia, serif;
+	text-align: center;
+	
+}
+
+
+#left_box {
+	
+	margin: 3em .5em 0em 5em;
+	padding: 0;
+		
+}
+
+#right_box {
+	
+	margin: 3em .5em 0em .5em;
+	padding: 0;
+	
+}
+
+#left_arch {
+	text-decoration: none;
+	font-family: Georgia, serif;
+	font size: 1.5em;
+	color: black;
+}
+
+.foot_text {
+	font-family: Georgia, serif;
+	font-size: 1.1em;
+	color: white;
+	padding: 0em;
+	margin: 2em auto 3em auto;
+	text-align: center;
+	visibility: hidden;
+}
+
+#ie_footer {
+	margin: 0;
+	padding: 0;
+	visibility: hidden;
+}

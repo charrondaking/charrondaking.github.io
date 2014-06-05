@@ -1,0 +1,163 @@
+ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+/* Base Styles 1024 / 768
+------------------------------- */
+
+/* Logo - Navigation */
+header { /* White Bar */
+	background-color: #82837E;
+	height: 45px;
+	width: 100%;
+	margin: 0em auto 0em auto;	
+}
+
+#logo_logopage {
+	height: 200%; 
+	width: auto;
+	margin: 0em 0em 0em 4em;
+	float: left;
+}
+
+button {
+	float: right;
+	margin: 1em 1em 0em 0em;
+}
+
+
+/* Logo Page */
+.logo_samples{
+	float: left;
+}
+
+#dancefashion {
+	margin: 4em 2em 0em 2em;
+	height: 15em;
+	width: auto;
+
+}
+
+#lastdrop {
+	margin: 8em 2em 0em 2em;
+	height: 8em;
+	width: auto;
+}
+
+#nitelite {
+	margin: 6em 2em 0em 2em;
+	height: 10em;
+	width: auto;
+	clear: right;
+}
+
+#biglew {
+	margin: 3em 2em 0em 2em;
+	height: 6em;
+	width: auto;
+	z-index: 100;
+}
+
+#vino {
+	margin: 3em 2em;
+	height: 6em;
+	width: auto;
+}
+
+#dyna {
+	margin: -1em 2em 0em 11em;
+	height: 12em;
+	width: auto;
+	clear: left;
+}
+
+#parker {
+	margin: -1em 2em;
+	height: 10em;
+	width: auto;
+}
+
+#dabab {
+	margin: 0em 2em 0em 2em;
+	height: 10em;
+	width: auto;
+}
+
+#dabab1 {
+	margin: 2em 2em;
+	height: 10em;
+	width: auto;
+	visibility: hidden;
+}
+
+#alchem {
+	margin: 3em 2em;
+	height: 6em;
+	width: auto;
+	visibility: hidden;
+}
+
+/* Web Page */
+.design_boxes {
+	height: 280px;
+	width: 210px;	
+	background-color: #82837E;
+	float: left;
+	border-radius: 30px;
+	color: #333;
+	margin: 8px;
+
+}
+
+#topleft_greyBox {
+	margin: 4em .5em 2em 5em;
+}
+
+#topright_greyBox{
+	margin: 4em .5em 2em 0em;
+}
+
+#bttmleft_greyBox {
+	margin: 4em .5em 2em .5em;
+}
+
+.box_text {
+	font-family: ;
+	color: #E0E0E0;
+}
+
+#biglew_link {
+	font-size: 3.5em;
+	margin: .25em auto;
+}
+
+#healthtech_link {
+	font-size: 3.5em;
+	margin: .5em .25em 0em 2.5em;
+	text-transform: (90deg);
+	-webkit-transform: rotate(90deg);   
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+#ckc_link {
+	font-size: 3em;
+	margin: 4.5em 0em 0em .25em;
+}
+
+a {
+	text-decoration: none;
+}
+
+.footer_logopage {
+	font-family: Georgia, serif;
+	font-size: 1.1em;
+	color: black;
+	padding: 0em;
+	margin: 0em auto 0em auto;
+	float: left;
+	display: inline;
+
+	
+	
+
+}
