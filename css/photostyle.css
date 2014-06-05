@@ -2,11 +2,11 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 
 #photo_article {
-	height: 440px; width: 80%;
+	height: 450px; width: 1065px;
 	background: #E0E0E0;
 	margin: 0px auto;
 	padding: 0;
-
+	
 }
 
 
@@ -18,24 +18,24 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	border-radius: 30px;
 	color: #333;
 	font-size: 1.2em;
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: Georgia, serif;
 	text-align: center;
-
+	
 }
 
 
 #left_box {
-
+	
 	margin: 3em .5em 0em 5em;
 	padding: 0;
-
+		
 }
 
 #right_box {
-
+	
 	margin: 3em .5em 0em .5em;
 	padding: 0;
-
+	
 }
 
 #left_arch {
@@ -44,66 +44,203 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	font size: 1.5em;
 	color: black;
 }
-/* End Base Styles */
 
 
-/* Smart Phones */
+
+
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+
 #photo_article {
-	height: 570px; width: 90%;
+	height: 460px; 
+	width: 400px;
+	background: #E0E0E0;
 	margin: 0px auto;
 	padding: 0;
+	
 }
 
+
+.photo_boxes {
+	height: 200px;
+	width: 285px;	
+	background-color: #82837E;
+	float: left;
+	border-radius: 30px;
+	color: #333;
+	font-size: 1.2em;
+	font-family: Georgia, serif;
+	text-align: center;
+	
+}
+
+
 #left_box {
-	margin: 1.5em .5em 0em 2em;
+	
+	margin: 3em .5em 0em 5em;
 	padding: 0;
+		
 }
 
 #right_box {
-	margin: 1.5em 0em 0em 2em;
-	padding: 0;
-}
-
-}
-/* End Smart Phone Styles */
-
-/* Tablets */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-#photo_article {
-	height: 550px; width: 90%;
-	margin: 0px auto;
-	padding: 0;
-}
-
-#left_box {
-	margin: 3em .5em 0em 2em;
-	padding: 0;
-}
-
-#right_box {
-	margin: 3em 0em 0em 10em;
-	padding: 0;
-}
-}
-/* End Tablet Styles */
-
-/* Standard Monitors */
-@media only screen and (min-width: 899px) and (max-width: 1224px) {
-#photo_article {
-	height: 440px; width: 90%;
-	margin: 0px auto;
-	padding: 0;
-}
-
-#left_box {
-	margin: 3em .5em 0em 2em;
-	padding: 0;
-}
-
-#right_box {
+	
 	margin: 3em .5em 0em .5em;
 	padding: 0;
+	
+}
+
+#left_arch {
+	text-decoration: none;
+	font-family: Georgia, serif;
+	font size: 1.5em;
+	color: black;
 }
 }
-/* End Standard Monitor Styles */	
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+#photo_article {
+	height: 460px; 
+	width: 480px;
+	background: #E0E0E0;
+	margin: 0px auto;
+	padding: 0;
+	
+}
+
+
+.photo_boxes {
+	height: 200px;
+	width: 285px;	
+	background-color: #82837E;
+	float: left;
+	border-radius: 30px;
+	color: #333;
+	font-size: 1.2em;
+	font-family: Georgia, serif;
+	text-align: center;
+	
+}
+
+
+#left_box {
+	
+	margin: 3em .5em 0em 5em;
+	padding: 0;
+		
+}
+
+#right_box {
+	
+	margin: 3em .5em 0em .5em;
+	padding: 0;
+	
+}
+
+#left_arch {
+	text-decoration: none;
+	font-family: Georgia, serif;
+	font size: 1.5em;
+	color: black;
+}
+}
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+#photo_article {
+	height: 460px; 
+	width: 600px;
+	background: #E0E0E0;
+	margin: 0px auto;
+	padding: 0;
+	
+}
+
+
+.photo_boxes {
+	height: 200px;
+	width: 285px;	
+	background-color: #82837E;
+	float: left;
+	border-radius: 30px;
+	color: #333;
+	font-size: 1.2em;
+	font-family: Georgia, serif;
+	text-align: center;
+	
+}
+
+
+#left_box {
+	
+	margin: 3em .5em 0em 5em;
+	padding: 0;
+		
+}
+
+#right_box {
+	
+	margin: 3em .5em 0em .5em;
+	padding: 0;
+	
+}
+
+#left_arch {
+	text-decoration: none;
+	font-family: Georgia, serif;
+	font size: 1.5em;
+	color: black;
+}
+}
+
+
+
+
+@media only screen and (min-width: 1024px) and (min-width: 768px) {
+#photo_article {
+	height: 450px; 
+	width: 1000px;
+	background: #E0E0E0;
+	margin: 0px auto;
+	padding: 0;
+	
+}
+
+
+.photo_boxes {
+	height: 200px;
+	width: 285px;	
+	background-color: #82837E;
+	float: left;
+	border-radius: 30px;
+	color: #333;
+	font-size: 1.2em;
+	font-family: Georgia, serif;
+	text-align: center;
+	
+}
+
+
+#left_box {
+	
+	margin: 3em .5em 0em 5em;
+	padding: 0;
+		
+}
+
+#right_box {
+	
+	margin: 3em .5em 0em .5em;
+	padding: 0;
+	
+}
+
+#left_arch {
+	text-decoration: none;
+	font-family: Georgia, serif;
+	font size: 1.5em;
+	color: black;
+}
