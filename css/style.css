@@ -1,7 +1,5 @@
         html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
 
-/* Base Styles
-------------------------------- */
 body {
 	background-color: #82837E;
 }
@@ -11,12 +9,13 @@ body {
 header { /* White Bar */
 	background-color: white;
 	height: 105px;
-	width: 80%;
+	width: 1065px;
 	margin: 0em auto 0em auto;	
 }
 
 #logo {
-	height: 140%; width: auto;
+	height: 140%; 
+	width: auto;
 	margin: 6.64em 0em 0 3em;
 	float: left;
 }
@@ -51,7 +50,8 @@ ul {
 
 /* Article Tag */
 article {
-	height: 640px; width: 80%;
+	height: 680px; 
+	width: 1065px;
 	background: #E0E0E0;
 	margin: 0px auto 40px;
 	padding: 0;
@@ -66,140 +66,161 @@ h2 {
 	font-family: 'Cuprum', sans-serif;
 	font-size: 1.5em;
 	color: orange;
-	padding: 0em 0em 0em 0em;
+	margin: 0em 0em 0em 0em;
 }
 
 
 /* Article: div grey boxes */
 .cupcake_boxes { /* General Style for all boxes */
-	height: 37%;
+	height: 275px;
 	width: 20%;	
 	background-color: #82837E;
 	float: left;
 	border-radius: 30px;
 	font-color: #333;
 	font-family: "ariel", sans-serif;
+	z-index: 50;
 }
 
 #topleft_box { /* Photo */
-	
-	margin: 5.5em .5em 1em 5em;
+
+	margin: 4.5em .5em 1em 3em;
 	padding: 0;		
 }
 
 #topright_box { /* Design */
-	
-	margin: 5.5em 15em 1em .5em;
+
+	margin: 4.5em 1em 1em .5em;
 	padding: 0;	
 }
 
 #bttmleft_box { /* About */
-	
-	margin: 1em .5em 2em 19em;
+
+	margin: 1em .5em 2em 17em;
 	padding: 0;	
 }
 
 #bttmright_box { /* Contact */
-	
-	margin: 1em 15em 2em .5em;
+
+	margin: 1em 1em 2em .5em;
 	padding: 0;	
 }
 
 
-/* Text in Grey Photoboxes */
+/* Body Text in Grey Photoboxes */
 .topleft_text {
 	font size: 1.5em;
 	text-align: right;
-	padding: .35em 1em .35em 0em;
+	padding: .5em 1em .75em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -12.5em ; 
+	left: 0em;
 }
-	
+
 .topright_text {
 	font size: 1.5em;
 	text-align: left;
-	padding: .35em 0em .35em 1em;
+	margin: 0em 0em 0em 1em; 
+	padding: .6em 1em .75em 0em;
+	position: relative;
+	top: -12.5em ; 
+	left: 0em;
 }
 
 .bttmleft_text {
 	font size: 1.5em;
 	text-align: right;
-	padding: .35em 1em .35em 0em;
+	padding: .5em 1em .75em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -11.5em ; 
+	left: 0em;
 }
 
 .bttmright_text {
 	font size: 1.5em;
 	text-align: left;
-	padding: .35em 0em .35em 1em;
+	padding: .4em 0em .76em 1em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -11.5em ; 
+	left: 0em;
 }
 
-/* Text in Grey boxes, Positions Style Rules */
-#graphic_design {
-	margin: 1em 0em 0em 0em;
-}
+/* Positions Style Rules for Text in Grey boxes,  */
 
-#architectural {
-	margin: 1em 0em 0em 0em;
-}
-
-#about {
-	margin: 1em 0em 0em 0em;
-}
-
-#contact {
-	margin: .5em 0em 0em 0em;
-}
 
 
 /* H2 Headers in Grey boxes */
 #logo_delight {
-	margin: .5em 0em 0em .5em;  
+	padding: 0em 0em 0em 1em; 
+	position: relative;
+	top: -8.8em ; 
+	left: 0em;  
 }
 
 #photo_meringue {
-	margin: .5em 0em 0em 1em;  
+	padding: 0em 1em 0em 1em; 
+	position: relative;
+	top: -9em ; 
+	left: 0em; 
 }
 
 #boutme_cobbler {
-	margin: .5em 0em 0em 1em;  
+	padding: 0em 0em 0em 1em; 
+	position: relative;
+	top: -8.2em ; 
+	left: 0em; 
 }
 
 #plain_contact {
-	margin: .5em 0em 0em .5em;  
+	padding: 0em 0em 0em 1em; 
+	position: relative;
+	top: -8.3em ; 
+	left: 0em;  
 }
 
 
 
 /* Article: Cupcakes */
-.cupcake_img {
-	width: 160px; height: auto;
+/* Cupcakes */
+.cupcake_img { /* Main Style for Cupcakes */
+	width: 85%; 
+	height: auto;
 	float: right;
+	z-index: 75;
 }
 
 #photo_cupake {
-	margin: 0em;
-	position: absolute;
-	left: 355px; 
-	top: 250px;
+	margin: 2em .5em .5em .5em;
+	left: -47%; 
+	top: 1em;
+	position: relative;
 }
 
 #design_cupcake {
 	margin: 0em;
-	position: absolute;
-	left: 755px; 
-	top: 225px;
+	padding: 0em;
+	left: 48%; 
+	top: 1.75em;
+	position: relative;
 }
+
 
 #about_cupcake {
 	margin: 0em;
-	position: absolute;
-	left: 355px; 
-	top: 500px;
+	left: -47%; 
+	top: 2em;
+	position: relative;
+	z-index: 75;
 }
 
 #contact_cupcake {
 	margin: 0em;
-	position: absolute;
-	left: 755px; 
-	top: 500px;
+	left: 40%; 
+	top: 2em;
+	position: relative;
 }
  /* End Artical */
 
@@ -217,44 +238,45 @@ h2 {
 #ie_footer {
 	margin: 0;
 	padding: 0;
+	
 }
 /*End Base Styles */
 
 
-/* Smart Phones 320 */
+/* //////// Smart Phones 320 //////// */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+
 header {
-	height: 3em;
-	width: 100%;
-	margin: 0em;
+	height: 100px;
+	width: 400px;
+	margin: 0em auto;
 	padding: 0em;
-	background: #E0E0E0;
+	background: white;
 }
 
 #logo {
-	height: 200%; width: auto;
+	height: 100%; width: auto;
 	margin: 1em 0em 0em 1em;
 	padding: 0em;
-	float: left;
 }
 
 
 /* Baking up design... */
 #head_text {
-	font-size: .8em;
-	top: 2em 2em 1em 1em;
-	float: left;
-	visibility: hidden;
-}
+	font-size: 1.2em; 
+	margin: 0em 0em 0em 0em;
+	padding: .5em 0em 0em 0em;
+	position: relative;
+	top: 1em ; 
+	left: 1em;
 
+}
 .navbuttons {
-	font-size: 1.2em;
-	margin: 1em .5em 0em .5em;
 	visibility: hidden;
 }
 
 article {
-	height: 460px; width: 100%;
+	height: 460px; width: 400px;
 	margin: 0em auto .25em;
 }
 
@@ -265,88 +287,113 @@ h2 {
 
 
 /* Article: div grey boxes */
-.cupcake_boxes { /* General Style for all boxes */
-	height: 35%;
-	width: 30%;	
-	float: left;
-	border-radius: 30px;
-	font-size: .95em;
+.cupcake_boxes {
+	width: 136px;
+	height: 148px;
+	border-radius: 20px;
 	color: white;
+	font-size: .95em;
+
 }
 
 #topleft_box { /*Photo */
-	margin: 0em 0em 1em 1.5em;
-	padding: 0em 1em 1em 1em;
-	left: 0em; 
-	top: -3em;
+	margin: 1.5em 1em 1em 3.5em;
+	padding: 0;	
 	position: relative;		
 }
 
 #topright_box { /* Design */
-	margin: 0em 0em 1em 1em;
-	padding: 0em 1em 1em 1em;
-	left: 0em; 
-	top: -3em;
+	margin: -2em 1em 1em .5em;
+	padding: 0;	
 	position: relative;
 }
 
 #bttmleft_box { /*About */
-	margin: 0em 0em 0em 1.2em;
-	padding: 0em 1em 1em 1em;
-	left: 0em; 
-	top: -3em;
-	position: relative;
+	margin: 1em 1em 1em 3.5em;
+	padding: 0;	
+	position: relative;;
 }
 
 #bttmright_box { /*Contact */
-	margin: 0em 0em 0em 1em;
-	padding: 0em 1em 1em 1em;
-	left: 0em; 
-	top: -3em;
+	margin: 1em 1em 1em .5em;
+	padding: 0;	
 	position: relative;
 }
 
 /* Text in Grey boxes */
 .topleft_text {
 	text-align: right;
-	padding: 0em 0em 0em 0em;
-	line-height: 1.2em;
+	padding: .35em 1em .35em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	line-height: .5em;
+	top: -6em ; 
+	left: 0em;
 }
-	
+
 .topright_text {
+	font size: .75em;
 	text-align: left;
-	padding: 0em 0em 0em 0em;
-	line-height: 1.2em;
+	padding: .35em 1em .35em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	line-height: .5em;
+	top: -4.5em ; 
+	left: 0em;
 }
 
 .bttmleft_text {
+	font size: .75em;
 	text-align: right;
-	padding: 0em 0em 0em 0em;
-	line-height: 1.2em;
+	padding: .35em 1em .35em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	line-height: .5em;
+	top: -4.2em ; 
+	left: 0em;
 }
 
 .bttmright_text {
+	font size: .75em;
 	text-align: left;
-	padding: 0em 0em 0em 0em;
-	line-height: 1.2em;
+	padding: .35em 1em .35em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	line-height: .5em;
+	top: -4.2em ; 
+	left: 0em;
 }
 
 
 /* H2 Headers in Grey boxes */
 #logo_delight {
-	margin: .6em;  
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -4em ; 
+	left: 0em;  
 }
 
 #photo_meringue {
-	margin: .6em;  
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -5.5em ; 
+	left: 0em; 
 }
+
 #boutme_cobbler {
-	margin: .6em;  
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -3.5em ; 
+	left: -1em; 
 }
 
 #plain_contact {
-	margin: .6em;  
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -3.5em ; 
+	left: -.4em;  
 }
+
 
 
 /* Cupcakes */
@@ -357,33 +404,35 @@ h2 {
 }
 
 #photo_cupake {
-	margin: 0.5em;
-	left: -1em; 
-	top: 4.5em;
-	position: absolute;
+	margin: 2em .5em .5em .5em;
+	left: -4.9em; 
+	top: 2.2em;
+	position: relative;
 }
 
 #design_cupcake {
 	margin: 0em;
-	left: 5em; 
-	top: 4.5em;
-	position: absolute;
-}
-
-#about_cupcake {
-	margin: 0em;
-	left: -.95em; 
-	top: 5em;
-	position: absolute;
+	padding: 0em;
+	left: 1.3em; 
+	top: 4.3em;
+	position: relative;
 }
 
 #contact_cupcake {
 	margin: 0em;
-	left: 5em; 
-	top: 5em;
-	position: absolute;
+	left: -.2em; 
+	top: 3.2em;
+	position: relative;
 }
 
+
+#about_cupcake {
+	margin: 0em;
+	left: -4.8em; 
+	top: 4.2em;
+	position: relative;
+	z-index: 75;
+}
 /*Footer*/
 .foot_text {
 	font-size: .85em;
@@ -395,314 +444,612 @@ h2 {
 } /* End  Smart Phone Query */
 
 
-/* Tablets */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+/* //////// Smart Phones 480 //////// */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+
 header {
-	height: 5em;
-	width: 90%;
-	margin: .5em auto 0em auto;	
+	height: 100px;
+	width: 480px;
+	margin: 0em auto;
+	padding: 0em;
+	background: white;
 }
 
 #logo {
-	height: 145%; width: auto;
-	margin: 5em 0em 0em 1em;
-	float: left;
+	height: 100%; width: auto;
+	margin: 1em 0em 0em 1em;
+	padding: 0em;
 }
 
 
 /* Baking up design... */
 #head_text {
-	font-size: 1.2em;
-	top: 2em;
-}
+	font-size: 1.2em; 
+	margin: 0em 0em 0em 0em;
+	padding: .5em 0em 0em 0em;
+	position: relative;
+	top: 1em ; 
+	left: 1em;
 
+}
 .navbuttons {
-	font-size: 1.1em;
-	margin: 1.8em 1em 0em 1em;
+	visibility: hidden;
 }
 
 article {
-	height: 570px; width: 90%;
-	margin: 0em auto 2em;
+	height: 460px; width: 480px;
+	margin: 0em auto .25em;
 }
 
 h2 {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	padding: 0em 0em 0em 0em;
 }
 
 
 /* Article: div grey boxes */
-.cupcake_boxes { /* General Style for all boxes */
-	height: 40%;
-	width: 26%;	
-	float: left;
-	border-radius: 30px;
+.cupcake_boxes {
+	width: 136px;
+	height: 148px;
+	border-radius: 20px;
+	color: white;
+	font-size: .95em;
+
 }
 
 #topleft_box { /*Photo */
-	margin: 2em .5em 1em 3em;
-	padding: 0;		
+	margin: 1.5em 1em 1em 3.5em;
+	padding: 0;	
+	position: relative;		
 }
 
 #topright_box { /* Design */
-	margin: 2em 0em 1em .5em;
-	padding: 0;
+	margin: -2em 1em 1em .5em;
+	padding: 0;	
+	position: relative;
 }
 
 #bttmleft_box { /*About */
-	margin: 1em .5em 1em 13em;
-	padding: 0;
+	margin: 1em 1em 1em 3.5em;
+	padding: 0;	
+	position: relative;;
 }
 
 #bttmright_box { /*Contact */
-	margin: 1em 0em 2em .5em;
-	padding: 0;
+	margin: 1em 1em 1em .5em;
+	padding: 0;	
+	position: relative;
 }
 
-/* Text in Grey Photoboxes */
+/* Text in Grey boxes */
 .topleft_text {
-	font size: 1em;
 	text-align: right;
 	padding: .35em 1em .35em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	line-height: .5em;
+	top: -6em ; 
+	left: 0em;
 }
-	
+
 .topright_text {
-	font size: 1.5em;
+	font size: .75em;
 	text-align: left;
-	padding: .35em 0em .35em 1em;
+	padding: .35em 1em .35em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	line-height: .5em;
+	top: -4.5em ; 
+	left: 0em;
 }
 
 .bttmleft_text {
-	font size: 1.5em;
+	font size: .75em;
 	text-align: right;
 	padding: .35em 1em .35em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	line-height: .5em;
+	top: -4.2em ; 
+	left: 0em;
 }
 
 .bttmright_text {
-	font size: 1.5em;
+	font size: .75em;
 	text-align: left;
-	padding: .35em 0em .35em 1em;
-}
-
-
-/* Text in Grey boxes, Positions Style Rules */
-#graphic_design {
-	margin: 1em 0em 0em 0em;
-}
-
-#architectural {
-	margin: 1em 0em 0em 0em;
-}
-
-#about {
-	margin: .5em 0em 0em 0em;
-}	
-
-#contact {
-	margin: .5em 0em 0em 0em;
+	padding: .35em 1em .35em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	line-height: .5em;
+	top: -4.2em ; 
+	left: 0em;
 }
 
 
 /* H2 Headers in Grey boxes */
 #logo_delight {
-	margin: .5em 0em 0em .5em;  
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -4em ; 
+	left: 0em;  
 }
 
 #photo_meringue {
-	margin: .6em 0em 0em 1em;  
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -5.5em ; 
+	left: 0em; 
 }
+
 #boutme_cobbler {
-	margin: .5em 0em 0em .5em;  
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -3.5em ; 
+	left: -1em; 
 }
 
 #plain_contact {
-	margin: .5em 0em 0em .5em;  
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -3.5em ; 
+	left: -.4em;  
 }
+
 
 
 /* Cupcakes */
 .cupcake_img { /* Main Style for Cupcakes */
-	width: 145px; 
+	width: 4em; 
 	height: auto;
 	float: right;
 }
 
 #photo_cupake {
-	margin: 0.5em;
-	left: 11em; 
-	top: 10em;
-	position: absolute;
+	margin: 2em .5em .5em .5em;
+	left: -4.9em; 
+	top: 2.2em;
+	position: relative;
 }
 
 #design_cupcake {
 	margin: 0em;
-	left: 34em; 
-	top: 10em;
-	position: absolute;
-}
-
-#about_cupcake {
-	margin: 0em;
-	left: 11em; 
-	top: 27em;
-	position: absolute;
+	padding: 0em;
+	left: 1.3em; 
+	top: 4.3em;
+	position: relative;
 }
 
 #contact_cupcake {
 	margin: 0em;
-	left: 33em; 
-	top: 26em;
-	position: absolute;
+	left: -.2em; 
+	top: 3.2em;
+	position: relative;
 }
 
+
+#about_cupcake {
+	margin: 0em;
+	left: -4.8em; 
+	top: 4.2em;
+	position: relative;
+	z-index: 75;
+}
+/*Footer*/
+.foot_text {
+	font-size: .85em;
+	padding: 0em;
+	margin: 1em;
+	height: 1em;
+	width: 100%
+}
+} /* End  Smart Phone Query */
+
+
+/* //////// Smart Phones 600 //////// */
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+
+
+header {
+	height: 100px;
+	width: 600px;
+	margin: 0em auto;
+	padding: 0em;
+	background: white;
+}
+
+#logo {
+	height: 100%; width: auto;
+	margin: 1em 0em 0em 1em;
+	padding: 0em;
+}
+
+
+/* Baking up design... */
+#head_text {
+	font-size: 1.2em; 
+	margin: 0em 0em 0em 0em;
+	padding: .5em 0em 0em 0em;
+	position: relative;
+	top: 1em ; 
+	left: 1em;
+
+}
+.navbuttons {
+	visibility: hidden;
+}
+
+article {
+	height: 460px; width: 600px;
+	margin: 0em auto .25em;
+}
+
+h2 {
+	font-size: 1.2em;
+	padding: 0em 0em 0em 0em;
+}
+
+
+/* Article: div grey boxes */
+.cupcake_boxes {
+	width: 136px;
+	height: 148px;
+	border-radius: 20px;
+	color: white;
+	font-size: .95em;
+
+}
+
+#topleft_box { /*Photo */
+	margin: 1.8em 1em 1em 2em;
+	padding: 0;	
+	position: relative;		
+}
+
+#topright_box { /* Design */
+	margin: -2em 1em 1em .5em;
+	padding: 0;	
+	position: relative;
+}
+
+#bttmleft_box { /*About */
+	margin: 1em 1em 1em 3.5em;
+	padding: 0;	
+	position: relative;;
+}
+
+#bttmright_box { /*Contact */
+	margin: 1em 1em 1em .5em;
+	padding: 0;	
+	position: relative;
+}
+
+/* Text in Grey boxes */
+.topleft_text {
+	text-align: right;
+	padding: .35em 1em .35em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	line-height: .5em;
+	top: -6em ; 
+	left: 0em;
+}
+
+.topright_text {
+	font size: .75em;
+	text-align: left;
+	padding: .35em 1em .35em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	line-height: .5em;
+	top: -4.5em ; 
+	left: 0em;
+}
+
+.bttmleft_text {
+	font size: .75em;
+	text-align: right;
+	padding: .35em 1em .35em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	line-height: .5em;
+	top: -4.2em ; 
+	left: 0em;
+}
+
+.bttmright_text {
+	font size: .75em;
+	text-align: left;
+	padding: .35em 1em .35em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	line-height: .5em;
+	top: -4.2em ; 
+	left: 0em;
+}
+
+
+/* H2 Headers in Grey boxes */
+#logo_delight {
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -4em ; 
+	left: 0em;  
+}
+
+#photo_meringue {
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -5.5em ; 
+	left: 0em; 
+}
+
+#boutme_cobbler {
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -3.5em ; 
+	left: -1em; 
+}
+
+#plain_contact {
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -3.5em ; 
+	left: -.4em;  
+}
+
+
+
+/* Cupcakes */
+.cupcake_img { /* Main Style for Cupcakes */
+	width: 6em; 
+	height: auto;
+	float: right;
+}
+
+#photo_cupake {
+	margin: 2em .5em .5em .5em;
+	left: -4.9em; 
+	top: 2.2em;
+	position: relative;
+}
+
+#design_cupcake {
+	margin: 0em;
+	padding: 0em;
+	left: 1.3em; 
+	top: 4.3em;
+	position: relative;
+}
+
+#contact_cupcake {
+	margin: 0em;
+	left: -.2em; 
+	top: 3.2em;
+	position: relative;
+}
+
+
+#about_cupcake {
+	margin: 0em;
+	left: -4.8em; 
+	top: 4.2em;
+	position: relative;
+	z-index: 75;
+}
+/*Footer*/
+.foot_text {
+	font-size: .85em;
+	padding: 0em;
+	margin: 1em;
+	height: 1em;
+	width: 100%
+}
+}
+
+
+
+@media only screen and (min-width: 1024px) and (min-width: 768px) {
+
+
+header {
+	height: 90px;
+	width: 1000px;
+	margin: 0em auto;
+	padding: 0em;
+	background: white;
+}
+
+#logo {
+	height: 160%; width: auto;
+	margin: 5.65em 0em 0em 3.5em;
+	padding: 0em;
+}
+
+
+/* Baking up design... */
+#head_text {
+	font-size: 1.2em; 
+	margin: 0em 0em 0em 0em;
+	position: relative;
+	top: .5em ; 
+	left: 1em;
+
+}
+
+
+article {
+	height: 760px; width: 1000px;
+	margin: 0em auto .25em;
+}
+
+h2 {
+	font-size: 1.25em;
+	padding: 0em 0em 0em 0em;
+}
+
+.navbuttons {
+	float: right;
+	font-size: 1.1em;
+	color: #f17022;
+	font-family: 'PT Sans Narrow', sans-serif;
+	margin: 2em 1em 0em 1em;
+}
+
+/* Article: div grey boxes */
+.cupcake_boxes {
+	width: 210px;
+	height: 285px;
+	border-radius: 30px;
+	color: black;
+	font-size: 1.1em;
+
+}
+
+#topleft_box { /*Photo */
+	margin: 6em 1em 1em 4em;
+	padding: 0;	
+	position: relative;		
+}
+
+#topright_box { /* Design */
+	margin: 6em 10em 1em .5em;
+	padding: 0;	
+	position: relative;
+	clear: right;
+}
+
+#bttmleft_box { /*About */
+	margin: 1em 1em 1em 16em;
+	padding: 0;	
+	position: relative;;
+}
+
+#bttmright_box { /*Contact */
+	margin: 1em 1em 1em .5em;
+	padding: 0;	
+	position: relative;
+}
+
+/* Text in Grey boxes */
+.topleft_text {
+	text-align: right;
+	padding: .35em 1em .35em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	line-height: 1.5em;
+	top: -10.5em ; 
+	left: 0em;
+}
+
+.topright_text {
+	text-align: left;
+	padding: .35em 1em .35em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	line-height: 1.5em;
+	top: -8.5em ; 
+	left: 0em;
+}
+
+.bttmleft_text {
+	font size: .75em;
+	text-align: right;
+	padding: .35em 1em .35em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	line-height: 1.5em;
+	top: -8.2em ; 
+	left: 0em;
+}
+
+.bttmright_text {
+	font size: .75em;
+	text-align: left;
+	padding: .35em 1em .35em 0em;
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	line-height: 1.5em;
+	top: -8.4em ; 
+	left: 0em;
+}
+
+
+/* H2 Headers in Grey boxes */
+#logo_delight {
+	margin: 1em 0em 0em 1em; 
+	position: relative;
+	top: -7.5em ; 
+	left: 0em;  
+}
+
+#photo_meringue {
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -8.5em ; 
+	left: 0em; 
+}
+
+#boutme_cobbler {
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -7em ; 
+	left: -1em; 
+}
+
+#plain_contact {
+	margin: 0em 0em 0em 1em; 
+	position: relative;
+	top: -7.3em ; 
+	left: -.4em;  
+}
+
+
+
+/* Cupcakes */
+.cupcake_img { /* Main Style for Cupcakes */
+	width: 8em; 
+	height: auto;
+	float: right;
+}
+
+#photo_cupake {
+	margin: 2em .5em .5em .5em;
+	left: -4.9em; 
+	top: 2.2em;
+	position: relative;
+}
+
+#design_cupcake {
+	margin: 0em;
+	padding: 0em;
+	left: 3.3em; 
+	top: 4em;
+	position: relative;
+}
+
+#contact_cupcake {
+	margin: 0em;
+	left: 2em; 
+	top: 3.2em;
+	position: relative;
+}
+
+
+#about_cupcake {
+	margin: 0em;
+	left: -4.8em; 
+	top: 4.2em;
+	position: relative;
+	z-index: 75;
+}
 /*Footer*/
 .foot_text {
 	font-size: 1em;
 	padding: 0em;
-	margin: 0em auto 3em auto;
-	text-align: center;
+	margin: 1em;
+	height: 1em;
+	width: 100%
 }
-} /* End Tablets Query */
-
-
-/* Standard Monitors */
-@media only screen and (min-width: 899px) and (max-width: 1224px) {
-
-header {
-	height: 6em;
-	width: 90%;
-	margin: .5em auto 0em auto;	
 }
-
-#logo {
-	height: 125%; width: auto;
-	margin: 6em 0em 0em 2em;
-	float: left;
-}
-
-
-/* Baking up design... */
-#head_text {
-	font-size: 1.2em;
-	top: 2em;
-}
-
-.navbuttons {
-	font-size: 1.1em;
-	margin: 2.5em 1em 0em 1em;
-}
-
-article {
-	height: 570px; width: 90%;
-	margin: 0em auto 2em;
-}
-
-h2 {
-	font-size: 1.5em;
-	padding: 0em 0em 0em 0em;
-}
-
-
-/* Article: div grey boxes */
-.cupcake_boxes { /* General Style for all boxes */
-	height: 42%;
-	width: 21%;	
-	float: left;
-	border-radius: 30px;
-}
-
-#topleft_box { /*Photo */
-	margin: 2em .5em 1em 6em;
-	padding: 0;		
-}
-
-#topright_box { /* Design */
-	margin: 2em 0em 1em .5em;
-	padding: 0;
-}
-
-#bttmleft_box { /*About */
-	margin: 1em .5em 1em 17em;
-	padding: 0;
-}
-
-#bttmright_box { /*Contact */
-	margin: 1em 0em 2em .5em;
-	padding: 0;
-}
-
-
-/* Text in Grey boxes, Positions Style Rules */
-#graphic_design {
-	margin: 1em 0em 0em 0em;
-}
-
-#architectural {
-	margin: 1em 0em 0em 0em;
-}
-
-#about {
-	margin: .5em 0em 0em 0em;
-}	
-
-#contact {
-	margin: .5em 0em 0em 0em;
-}
-
-
-/* H2 Headers in Grey boxes */
-#logo_delight {
-	margin: .5em 0em 0em .5em;  
-}
-
-#photo_meringue {
-	margin: .6em 0em 0em 1em;  
-}
-#boutme_cobbler {
-	margin: .5em 0em 0em .5em;  
-}
-
-#plain_contact {
-	margin: .5em 0em 0em .5em;  
-}
-
-
-/* Cupcakes */
-.cupcake_img { /* Main Style for Cupcakes */
-	width: 165px; 
-	height: auto;
-	float: right;
-}
-
-#photo_cupake {
-	margin: 0.5em;
-	left: 15em; 
-	top: 10em;
-	position: absolute;
-}
-
-#design_cupcake {
-	margin: 0em;
-	left: 41em; 
-	top: 10em;
-	position: absolute;
-}
-
-#about_cupcake {
-	margin: 0em;
-	left: 15em; 
-	top: 28em;
-	position: absolute;
-}
-
-#contact_cupcake {
-	margin: 0em;
-	left: 41em; 
-	top: 27em;
-	position: absolute;
-}
-
-} /* End Query */
 
 
