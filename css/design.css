@@ -1,7 +1,6 @@
-
-
 #design_article {
-	height: 1040px; width: 80%;
+	height: 105px; 
+	width: 1065px;
 	background: #E0E0E0;
 	margin: 0px auto 0px;
 	padding: 0;
@@ -9,30 +8,296 @@
 
 .design_boxes {
 	height: 280px;
-	width: 200px;	
+	width: 210px;	
 	background-color: #82837E;
 	float: left;
 	border-radius: 30px;
-	color: #333;
-	margin: 8px;
 
 }
 
-.clear_top {
-	margin: 40px 6px 6px 10px;
+#topleft_greyBox {
+	margin: 6em .5em 1em 4em;
 }
 
-.clear_middle{
-	margin: 6px 6px 6px 228px;
+#topright_greyBox{
+	margin: 6em .5em 1em 1em;
+	clear: right;
 }
 
-.clear_bottom {
+#bttmleft_greyBox {
+	margin: 2em .5em 1em 19.5em;
 	clear: left;
-	margin: 6px 6px 6px 228px;
 }
 
-.graphic_designs {
-	height: 100px;
-	width: auto;
-	margin: 40px auto  0px auto;
+#bttmrght_greyBox{
+	margin: 2em .5em 1em 1em;
+	clear: right;
+}
+
+.logo_fonts {
+	margin: 1em auto;
+}
+
+section {
+	float: left;
+	margin: 0em;
+	padding: 2em 1em 1em 12em;
+	position: relative;
+	top: -8em;
+}
+
+#facebook_logo {
+	height: 80px;
+}
+
+#linkedin_logo {
+	height: 80px;
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+#design_article {
+	height: 100px; 
+	width: 400px;
+	background: #E0E0E0;
+	margin: 0px auto 0px;
+	padding: 0;
+}
+
+.design_boxes {
+	height: 280px;
+	width: 210px;	
+	background-color: #82837E;
+	float: left;
+	border-radius: 30px;
+
+}
+
+#topleft_greyBox {
+	margin: 6em .5em 1em 4em;
+}
+
+#topright_greyBox{
+	margin: 6em .5em 1em 1em;
+	clear: right;
+}
+
+#bttmleft_greyBox {
+	margin: 2em .5em 1em 19.5em;
+	clear: left;
+}
+
+#bttmrght_greyBox{
+	margin: 2em .5em 1em 1em;
+	clear: right;
+}
+
+.logo_fonts {
+	margin: 1em auto;
+}
+
+section {
+	float: left;
+	margin: 0em;
+	padding: 2em 1em 1em 12em;
+	position: relative;
+	top: -8em;
+}
+
+#facebook_logo {
+	height: 80px;
+}
+
+#linkedin_logo {
+	height: 80px;
+}
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+
+#design_article {
+	height: 100px; 
+	width: 480px;
+	background: #E0E0E0;
+	margin: 0px auto 0px;
+	padding: 0;
+}
+
+.design_boxes {
+	height: 280px;
+	width: 210px;	
+	background-color: #82837E;
+	float: left;
+	border-radius: 30px;
+
+}
+
+#topleft_greyBox {
+	margin: 6em .5em 1em 4em;
+}
+
+#topright_greyBox{
+	margin: 6em .5em 1em 1em;
+	clear: right;
+}
+
+#bttmleft_greyBox {
+	margin: 2em .5em 1em 19.5em;
+	clear: left;
+}
+
+#bttmrght_greyBox{
+	margin: 2em .5em 1em 1em;
+	clear: right;
+}
+
+.logo_fonts {
+	margin: 1em auto;
+}
+
+section {
+	float: left;
+	margin: 0em;
+	padding: 2em 1em 1em 12em;
+	position: relative;
+	top: -8em;
+}
+
+#facebook_logo {
+	height: 80px;
+}
+
+#linkedin_logo {
+	height: 80px;
+}
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+
+#design_article {
+	height: 100px; 
+	width: 600px;
+	background: #E0E0E0;
+	margin: 0px auto 0px;
+	padding: 0;
+}
+
+.design_boxes {
+	height: 280px;
+	width: 210px;	
+	background-color: #82837E;
+	float: left;
+	border-radius: 30px;
+
+}
+
+#topleft_greyBox {
+	margin: 6em .5em 1em 4em;
+}
+
+#topright_greyBox{
+	margin: 6em .5em 1em 1em;
+	clear: right;
+}
+
+#bttmleft_greyBox {
+	margin: 2em .5em 1em 19.5em;
+	clear: left;
+}
+
+#bttmrght_greyBox{
+	margin: 2em .5em 1em 1em;
+	clear: right;
+}
+
+.logo_fonts {
+	margin: 1em auto;
+}
+
+section {
+	float: left;
+	margin: 0em;
+	padding: 2em 1em 1em 12em;
+	position: relative;
+	top: -8em;
+}
+
+#facebook_logo {
+	height: 80px;
+}
+
+#linkedin_logo {
+	height: 80px;
+}
+}
+
+
+
+
+
+@media only screen and (min-width: 1024px) and (min-width: 768px) {
+#design_article {
+	height: 760px; 
+	width: 1000px;
+	background: #E0E0E0;
+	margin: 0px auto 0px;
+	padding: 0;
+}
+
+.design_boxes {
+	height: 280px;
+	width: 210px;	
+	background-color: #82837E;
+	float: left;
+	border-radius: 30px;
+
+}
+
+#topleft_greyBox {
+	margin: 6em .5em 1em 4em;
+}
+
+#topright_greyBox{
+	margin: 6em .5em 1em 1em;
+	clear: right;
+}
+
+#bttmleft_greyBox {
+	margin: 2em .5em 1em 19.5em;
+	clear: left;
+}
+
+#bttmrght_greyBox{
+	margin: 2em .5em 1em 1em;
+	clear: right;
+}
+
+.logo_fonts {
+	margin: 1em auto;
+}
+
+section {
+	float: left;
+	margin: 0em;
+	padding: 2em 1em 1em 12em;
+	position: relative;
+	top: -27em;
+	left: 43em;
+}
+
+#facebook_logo {
+	height: 80px;
+}
+
+#linkedin_logo {
+	height: 80px;
+}
 }
