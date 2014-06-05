@@ -1,3 +1,4 @@
+ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
 
 
 #design_article {
@@ -62,7 +63,7 @@ section {
 @media only screen and (min-width: 320px) and (max-width: 479px) {
 
 #design_article {
-	height: 100px; 
+	height: 600px; 
 	width: 400px;
 	background: #E0E0E0;
 	margin: 0px auto 0px;
@@ -70,8 +71,8 @@ section {
 }
 
 .design_boxes {
-	height: 280px;
-	width: 210px;	
+	height: 180px;
+	width: 130px;	
 	background-color: #82837E;
 	float: left;
 	border-radius: 30px;
@@ -79,26 +80,27 @@ section {
 }
 
 #topleft_greyBox {
-	margin: 6em .5em 1em 4em;
+	margin: 2em .5em 1em 4em;
 }
 
 #topright_greyBox{
-	margin: 6em .5em 1em 1em;
+	margin: -1em .5em 1em 1em;
 	clear: right;
 }
 
 #bttmleft_greyBox {
-	margin: 2em .5em 1em 19.5em;
+	margin: 0em .5em 1em 4em;
 	clear: left;
 }
 
 #bttmrght_greyBox{
-	margin: 2em .5em 1em 1em;
+	margin: 0em .5em 1em 1em;
 	clear: right;
 }
 
 .logo_fonts {
 	margin: 1em auto;
+	width: 10em;
 }
 
 section {
@@ -106,15 +108,15 @@ section {
 	margin: 0em;
 	padding: 2em 1em 1em 12em;
 	position: relative;
-	top: -8em;
+	top: 0em;
 }
 
 #facebook_logo {
-	height: 80px;
+	height: 50px;
 }
 
 #linkedin_logo {
-	height: 80px;
+	height: 50px;
 }
 }
 
@@ -122,7 +124,7 @@ section {
 @media only screen and (min-width: 480px) and (max-width: 599px) {
 
 #design_article {
-	height: 100px; 
+	height: 650px; 
 	width: 480px;
 	background: #E0E0E0;
 	margin: 0px auto 0px;
@@ -130,8 +132,8 @@ section {
 }
 
 .design_boxes {
-	height: 280px;
-	width: 210px;	
+	height: 180px;
+	width: 130px;	
 	background-color: #82837E;
 	float: left;
 	border-radius: 30px;
@@ -139,26 +141,27 @@ section {
 }
 
 #topleft_greyBox {
-	margin: 6em .5em 1em 4em;
+	margin: 2em .5em 1em 4em;
 }
 
 #topright_greyBox{
-	margin: 6em .5em 1em 1em;
+	margin: -1em .5em 1em 1em;
 	clear: right;
 }
 
 #bttmleft_greyBox {
-	margin: 2em .5em 1em 19.5em;
+	margin: 0em .5em 1em 4em;
 	clear: left;
 }
 
 #bttmrght_greyBox{
-	margin: 2em .5em 1em 1em;
+	margin: 0em .5em 1em 1em;
 	clear: right;
 }
 
 .logo_fonts {
 	margin: 1em auto;
+	width: 10em;
 }
 
 section {
@@ -166,15 +169,15 @@ section {
 	margin: 0em;
 	padding: 2em 1em 1em 12em;
 	position: relative;
-	top: -8em;
+	top: 0em;
 }
 
 #facebook_logo {
-	height: 80px;
+	height: 50px;
 }
 
 #linkedin_logo {
-	height: 80px;
+	height: 50px;
 }
 }
 
@@ -185,7 +188,7 @@ section {
 @media only screen and (min-width: 600px) and (max-width: 800px) {
 
 #design_article {
-	height: 100px; 
+	height: 600px; 
 	width: 600px;
 	background: #E0E0E0;
 	margin: 0px auto 0px;
