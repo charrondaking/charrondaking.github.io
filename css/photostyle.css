@@ -101,7 +101,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 @media only screen and (min-width: 480px) and (max-width: 599px) {
 #photo_article {
-	height: 460px; 
+	height: 660px; 
 	width: 480px;
 	background: #E0E0E0;
 	margin: 0px auto;
@@ -133,7 +133,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 #right_box {
 	
-	margin: 3em .5em 0em .5em;
+	margin: 3em .5em 0em 3em;
 	padding: 0;
 	
 }
