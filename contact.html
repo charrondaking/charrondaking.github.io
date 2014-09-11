@@ -7,26 +7,41 @@
 		
 		<title>C King Design</title>
 		<link rel="stylesheet" href="css/contact.css" type="text/css">
-		<link rel="stylesheet" href="css/style.css" type="text/css">
 		
 		<script type="text/javascript" src="javascript.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Paprika' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css'>
-
-
-	
+		<script type="text/javascript">
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+        </script>
 </head>
 <body>
 
 <!-- Logo -->
 <header>
-		<a class="nav_buttons" href="index.html"><img id="logo" src="images/ckinglogo.png"></a>
+		<a class="nav_buttons" href="index.html"><img id="logo" src="images/ckinglogo.png" alt="CK Logo"></a>
+		<p id="head_text">Baking up Graphic Design...</p>
 			
 <!-- links/navigation -->	
 	<nav>
 		<ul>
-            <li><a class="navbuttons" href="design.html">Design</a></li>
+            <li><a class="navbuttons" href="images/charronda.pdf" target="new">Design</a></li>
             <li><a class="navbuttons" href="photo.html">Photography</a></li>
             <li><a class="navbuttons" href="index.html">Home</a></li>
         </ul>
@@ -35,39 +50,54 @@
 
 
 <article id="contact_article">
-		<div id="main"><img id="phone" src="images/phone5.png"></div>
+		<div id="main"><img id="phone" src="images/phone5.png" alt="Phone"></div>
 
 		<div id="info_area">
-		<form action="form.php" method="post">
+		<form action="/gdform.php" method="post" id="contact_form">
 		<p class="info_text bold_text" >Phone</p>
-		<p class="info_text orange_text">770-111-1111</p>
+		<p class="info_text orange_text">770-490-6726</p>
 		<p class="info_text bold_text">Email</p>
-			<textarea id="name_contact" name="customercomment" rows="5" cols="60" wrap="hard">Name &amp; Contact</textarea></p>
-			
-			<textarea id="message_box" name="customercomment" rows="5" cols="60" wrap="hard">Message</textarea></p>
-				
-			<input type="submit" value="Send">
-			<input type="reset" value="Reset">
-			</form>
+			<p>
+			  <textarea id="name_contact" name="customercomment" rows="5" cols="60" wrap="hard">Name &amp; Contact</textarea>
+			  </p>
+			  
+			  <textarea id="message_box" name="customercomment" rows="5" cols="60" wrap="hard">Message</textarea>
+			<p>
+			  <input type="submit" onClick="MM_validateForm('name_contact','','R');return document.MM_returnValue" value="Send">
+			</p>
+			  <input type="reset" value="Reset">
+			  <input name="Recipeint" type="hidden" id="Recipeint" value="cking947@gmail.com">
+			  <input name="Redirect" type="hidden" id="Redirect" value="thankyou.html">
+		  	</form>
 		</div>
 
-		<div id="main">
+		<div>
 			<a href="http://www.facebook.com/" target="_blank">
-			<img class="circles" id="facebook" src="images/facebook.png">
+			<img class="circles" id="facebook" src="images/facebook.png" alt="Facebook Logo">
 			</a>
 		</div>
-		<div id="main">
+		<div>
 			<a href="http://www.linkedin.com/pub/charronda-king-cook/46/123/988/" target="_blank">
-			<img class="circles" id="linkedin" src="images/linkedin3.png">
+			<img class="circles" id="linkedin" src="images/linkedin3.png" alt="LinkedIn Logo">
 			</a>
 		</div>
 
 </article>
 
 <footer class="foot_text">
-		<p><span class="foot_text">© 2014</span>Charronda King
-		<a class="foot_text" href="tel:7704332211"> &#124; (770) 433-2211</a>
-		<a class="foot_text" href="mailto:cking@collectivelyKreative.net?subject=website.com%20website"> &#124; info@collectivelyKreative.com</a></p>
+		<p><span class="foot_text">© 2014</span>Charronda King</p>
+		
 </footer>
+
+<!-- css3-mediaqueries.js for IE less than 9 -->
+ <!--[if lt IE 9]>
+ <link rel="stylesheet" media="all" href="css/iereset.css" type="text/css">
+<script type="text/javascript">
+	alert('This site may not work properly in IE 8 or below!');
+</script>
+
+<![endif]-->
+
+<body>
 
 </html>
